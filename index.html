@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper-item">
+            <div class="wrapper-clear">
+                <button id="clear-left" onclick="clearTextLeft()">Clear</button>
+                <button id="clear-right" onclick="clearTextRight()">Clear</button>
+                <select id="select">
+                    <option value="black-color"><p class="black-color">Черный</p></option>
+                    <option value="red-color"><p class="red-color">Красный</p></option>
+                    <option value="blue-color"><p class="blue-color">Синий</p></option>
+                </select>
+            </div>
+            <div class="text-area">
+                <textarea name="" id="textarea" cols="30" rows="10" placeholder="Type html here"></textarea>
+                <button id="convert" onclick="convertTextButton()">Convert</button> 
+                <div class="convert-text">
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
